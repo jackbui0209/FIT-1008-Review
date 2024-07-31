@@ -2,7 +2,8 @@ def original_selection_sort(arr):
     n = len(arr)
     for i in range(n-1):
         smallest_pos = find_smallest(arr, i)
-        swap_basic(arr, i, smallest_pos)
+        if 
+        swap_basic(arr, i, smallest_pos)#find in buuble_sort
     return arr
 
 def find_smallest(arr, start):
